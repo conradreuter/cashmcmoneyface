@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "es6"
+  },
+  "include": ["src/**/*", "typings/**/*"]
+}

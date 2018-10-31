@@ -1,0 +1,40 @@
+{
+  "scripts-info": {
+    "info": "Show this info message.",
+    "lint": "Run the linter and verify the code adheres to the set standards.",
+    "start": "Spin up the development environment on port 1234.",
+    "typesync": "Install missing type definitions."
+  },
+  "scripts": {
+    "info": "npm-scripts-info",
+    "lint": "tslint -p .",
+    "start": "cross-env NODE_ENV=development parcel src/index.html",
+    "typesync": "typesync"
+  },
+  "devDependencies": {
+    "@types/babel-core": "^6.25.5",
+    "@types/jest": "^23.3.9",
+    "@types/lodash": "^4.14.117",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "babel-core": "^6.26.3",
+    "babel-plugin-emotion": "^9.2.11",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "jest": "^23.6.0",
+    "lodash": "^4.17.11",
+    "npm-scripts-info": "^0.3.9",
+    "parcel-bundler": "^1.10.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.4",
+    "typesync": "^0.4.0"
+  },
+  "dependencies": {
+    "emotion": "^9.2.12",
+    "immer": "^1.7.4",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-emotion": "^9.2.12"
+  }
+}

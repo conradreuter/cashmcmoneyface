@@ -1,0 +1,23 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
